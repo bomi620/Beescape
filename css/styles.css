@@ -93,7 +93,7 @@ FIXED LOGO BUTTON (TOP LEFT)
     position: fixed;
     left: 25px;
     top: 12px;
-    background-image: url(../assets/_images/cross.svg);
+    background-image: url(../assets/images/cross.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
@@ -104,7 +104,7 @@ FIXED LOGO BUTTON (TOP LEFT)
 }
 #fixed_button:hover {
     background-color: blue;
-    background-image: url(../assets/_images/cross_rover.svg);
+    background-image: url(../assets/images/cross_rover.svg);
 }
 
 /*****************************************************
@@ -167,9 +167,9 @@ FEATURE SECTION
 ******************************************************/
 .feature {
     height: 100vh;
-    background-image: url(../assets/_images/beescape2.png),
+    background-image: url(../assets/images/beescape2.png),
     linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-     url(../assets/_images/beescape\ video.gif);
+     url(../assets/images/beescape\ video.gif);
     background-position: center;
     background-size: contain, contain, cover;
     background-repeat: no-repeat;
@@ -232,13 +232,13 @@ ICONS
     background-position: center;
 }
 .one {
-    background-image: url(../assets/_images/cross_rover.svg);
+    background-image: url(../assets/images/cross_rover.svg);
 }
 .two {
-    background-image: url(../assets/_images/cross_rover.svg);
+    background-image: url(../assets/images/cross_rover.svg);
 }
 .three {
-    background-image: url(../assets/_images/cross_rover.svg);
+    background-image: url(../assets/images/cross_rover.svg);
 }
 /*****************************************************
 VIDEO
@@ -275,7 +275,7 @@ SPLIT IN TWO SECTION
     padding: 25px;
 }
 .halfcolumn_left {
-    background-image: url(../assets/_images/shanghainightstreet.gif);
+    background-image: url(../assets/images/shanghainightstreet.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -320,73 +320,73 @@ GALLERY
     background-position: center;
 }
 .image_one {
-    background-image: url(../assets/_images/vsco01.jpg);
+    background-image: url(../assets/images/vsco01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_two {
-    background-image: url(../assets/_images/vsco02.jpg);
+    background-image: url(../assets/images/vsco02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_three {
-    background-image: url(../assets/_images/vsco03.jpg);
+    background-image: url(../assets/images/vsco03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_four {
-    background-image: url(../assets/_images/vsco04.jpg);
+    background-image: url(../assets/images/vsco04.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_five {
-    background-image: url(../assets/_images/vsco05.jpg);
+    background-image: url(../assets/images/vsco05.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_six {
-    background-image: url(../assets/_images/vsco06.jpg);
+    background-image: url(../assets/images/vsco06.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_seven {
-    background-image: url(../assets/_images/uppercase_01.svg);
+    background-image: url(../assets/images/uppercase_01.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_eight {
-    background-image: url(../assets/_images/a_letter.svg);
+    background-image: url(../assets/images/a_letter.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_nine {
-    background-image: url(../assets/_images/handgloves.svg);
+    background-image: url(../assets/images/handgloves.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_ten {
-    background-image: url(../assets/_images/letter_group_02.svg), url(../_images/blackbar.svg);
+    background-image: url(../assets/images/letter_group_02.svg), url(../images/blackbar.svg);
     background-size: cover, auto;
     background-repeat: no-repeat;
     background-position: center, top;
 }
 .image_eleven {
-    background-image: url(../assets/_images/asterisk.svg);
+    background-image: url(../assets/images/asterisk.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .image_twelve {
-    background-image: url(../assets/_images/numerals.svg), url(../assets/_images/blackbar.svg);
+    background-image: url(../assets/images/numerals.svg), url(../assets/images/blackbar.svg);
     background-size: cover, auto;
     background-repeat: no-repeat;
     background-position: center, top;
@@ -434,7 +434,7 @@ TEXT&IMAGE SECTION
     width: 80%;
     max-width: 1200px;
     min-width: 800px;
-    background-image: url(../assets/_images/circular.png);
+    background-image: url(../assets/images/circular.png);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 340px;
@@ -490,7 +490,7 @@ CTA SECTION
     background-color: lime;
     border-radius: 25px;
     margin-top: 40px;
-    background-image: url(../assets/_images/cta_button.png);
+    background-image: url(../assets/images/cta_button.png);
     
     /* Animated Feedback */
     transition: all .4s ease;
@@ -504,7 +504,7 @@ FOOTER
 .footer_section {
     background-color: black;
     font-family: 'Roboto', sans-serif;
-    background-image: url(../assets/_images/cross_rover.svg);
+    background-image: url(../assets/images/cross_rover.svg);
     background-repeat: no-repeat;
     background-size: 60px;
     background-position: 98% 88%;
