@@ -504,8 +504,7 @@ FOOTER
 .footer_section {
     background-color: black;
     font-family: 'Roboto', sans-serif;
-    background-image: url(../
-    assets/_images/cross_rover.svg);
+    background-image: url(../assets/_images/cross_rover.svg);
     background-repeat: no-repeat;
     background-size: 60px;
     background-position: 98% 88%;
