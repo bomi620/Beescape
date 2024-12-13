@@ -17,7 +17,7 @@ HIGHLIGHTS
     background: lime; /* WebKit/Blink Browsers */
 }
 mark {
-    background: lime;
+    background: rgb(227, 187, 6);
     color: white;
 }
 /*****************************************************
@@ -129,7 +129,7 @@ header a {
     text-decoration: none;
 }
 header a:hover {
-    color: lime;
+    color: rgb(255, 234, 3);
 }
 .googlemark {
     text-align: center;
@@ -137,7 +137,7 @@ header a:hover {
     letter-spacing: .3em;
 }
 .googlemark:hover {
-    color: lime;
+    color: rgb(255, 234, 3);
 }
 nav {
     /* FLEX */
@@ -155,7 +155,7 @@ nav {
     letter-spacing: .05em;
 }
 .navbutton a:hover {
-    color: lime;
+    color: rgb(255, 234, 3);
 }
 .designedby {
     text-align: right;
