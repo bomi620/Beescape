@@ -208,7 +208,7 @@ LARGE TEXTBOX SECTION
 ICONS
 ******************************************************/
 .icons_section {
-    height: 80vh;
+    height: 70vh;
     background-color: rgb(253, 220, 4);
     font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -221,7 +221,6 @@ ICONS
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
    
 }
 .icons_container {
@@ -235,13 +234,13 @@ ICONS
 }
 
 .icon_box p {
-    width: 200px;
-    margin-top: 30px;
+    width: 250px;
+    margin-top: 10px;
     text-align: center;
 }
 .icon {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: transparent;
     background-size: 80%;
     background-repeat: no-repeat;
@@ -255,6 +254,24 @@ ICONS
 }
 .three {
     background-image: url(../assets/images/beevoxel1.png);
+}
+.itemone {
+    background-image: url(../assets/images/beetem6.png);
+}
+.itemtwo {
+    background-image: url(../assets/images/BeeItem3.png);
+}
+.itemthree {
+    background-image: url(../assets/images/beeItem1.png);
+}
+.itemfour {
+    background-image: url(../assets/images/BeeItem2.png);
+}
+.itemfive {
+    background-image: url(../assets/images/beeitem5.png);
+}
+.itemsix {
+    background-image: url(../assets/images/Beeitem4.png);
 }
 /*****************************************************
 VIDEO
@@ -279,6 +296,7 @@ SPLIT IN TWO SECTION
     display: flex;
     align-content: flex-start;
     background-color: rgb(253, 220, 4);
+    margin-top: 40px;
 }
 .splitintwo ::selection {
     background: black;
@@ -483,10 +501,22 @@ TEXT&IMAGE SECTION
 CTA SECTION
 ******************************************************/
 .cta_section {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
     padding: 100px 0;
-    background-color: white;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),  /* 흰색 반투명 레이어 */
+        rgba(255, 255, 255, 0.5)
+    ),
+    url(../assets/images/beescapebg.png);
+    background-size: contain;
+    background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */
+    background-position: center;
 }
+
+
 .cta_section .textbox {
     width: 80%;
     padding: 100px 20px;
@@ -511,7 +541,7 @@ CTA SECTION
 .cta_section .cta_button {
     width: 200px;
     height: 50px;
-    background-color: lime;
+    background-color: rgb(215, 189, 22);
     border-radius: 25px;
     margin-top: 40px;
     background-image: url(../assets/images/cta_button.png);
@@ -522,12 +552,18 @@ CTA SECTION
 .cta_section .cta_button:hover {
     background-color: black;
 }
+
+.pixel { font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
 /*****************************************************
 FOOTER
 ******************************************************/
 .footer_section {
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 220, 4);
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-image: url(../assets/images/cross_rover.svg);
     background-repeat: no-repeat;
     background-size: 60px;
