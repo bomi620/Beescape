@@ -199,7 +199,7 @@ ICONS
 ******************************************************/
 .icons_section {
     height: 80vh;
-    background-color: black;
+    background-color: rgb(253, 220, 4);
     font-family: 'Roboto', sans-serif;
     color: white;
     position: relative;
@@ -217,6 +217,7 @@ ICONS
     display: flex;
     justify-content: space-between;
 }
+
 .icon_box p {
     width: 200px;
     margin-top: 30px;
@@ -231,13 +232,13 @@ ICONS
     background-position: center;
 }
 .one {
-    background-image: url(../assets/images/cross_rover.svg);
+    background-image: url(../assets/images/beepic3.png);
 }
 .two {
-    background-image: url(../assets/images/cross_rover.svg);
+    background-image: url(../assets/images/beepic1.png);
 }
 .three {
-    background-image: url(../assets/images/cross_rover.svg);
+    background-image: url(../assets/images/beevoxel1.png);
 }
 /*****************************************************
 VIDEO
