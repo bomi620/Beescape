@@ -40,7 +40,7 @@ html {
 
 body {
     height: 100vh;
-    background-color: black;
+    background-color: white;
     background-position: center, center;
     background-attachment: fixed;
     
@@ -221,6 +221,8 @@ ICONS
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
+   
 }
 .icons_container {
     margin: 0 auto;
@@ -289,7 +291,7 @@ SPLIT IN TWO SECTION
     padding: 25px;
 }
 .halfcolumn_left {
-    background-image: url(../assets/images/shanghainightstreet.gif);
+    background-image: url(../assets/images/bee_gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -316,10 +318,10 @@ SPLIT IN TWO SECTION
 /*****************************************************
 GALLERY
 ******************************************************/
-.gallery_grid {
+/*.gallery_grid {
     display: flex;
     background-color: black;
-    /* BORDERS */
+    
     border-top: 20px solid black;
     border-bottom: 20px solid black;
 }
@@ -412,7 +414,7 @@ GALLERY
     background-size: cover, auto;
     background-repeat: no-repeat;
     background-position: center, top;
-}
+}*/
 /*****************************************************
 HEADING + PARAGRAPH SECTION
 ******************************************************/
