@@ -88,23 +88,22 @@ FIXED LOGO BUTTON (TOP LEFT)
 #fixed_button {
     width: 50px;
     height: 50px;
-    background-color: lime;
     border-radius: 50px;
     position: fixed;
     left: 25px;
     top: 12px;
-    background-image: url(../assets/images/cross.svg);
+    background-image: url(../assets/images/beevoxel1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 60%;
+    background-size: cover; /* 이미지가 버튼을 완전히 채우도록 설정 */
     z-index: 9999;
+    border: none;
 
     /* HOVER TRANSITION */
     transition: all .5s ease;
 }
 #fixed_button:hover {
-    background-color: blue;
-    background-image: url(../assets/images/cross_rover.svg);
+    filter: brightness(1.5);
 }
 
 /*****************************************************
