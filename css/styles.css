@@ -19,15 +19,22 @@ HIGHLIGHTS
 mark {
     background: rgb(227, 187, 6);
     color: white;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 /*****************************************************
 GENERAL
 ******************************************************/
 html {
-        font-family: "Silkscreen", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-      }
+   
+    
+        font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+      
       
       
 
@@ -119,13 +126,16 @@ header {
     /* FLEX */
     display: flex;
     align-content: flex-start;
-    color: white;
+    color: black;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .header_column {
     width: 33.333%;
 }
 header a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 header a:hover {
@@ -149,7 +159,7 @@ nav {
     text-align: center;
 }
 .navbutton a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 700;
     letter-spacing: .05em;
@@ -200,8 +210,12 @@ ICONS
 .icons_section {
     height: 80vh;
     background-color: rgb(253, 220, 4);
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+    color: black;
     position: relative;
 
     display: flex;
@@ -262,7 +276,7 @@ SPLIT IN TWO SECTION
     height: 100vh;
     display: flex;
     align-content: flex-start;
-    background-color: lime;
+    background-color: rgb(253, 220, 4);
 }
 .splitintwo ::selection {
     background: black;
@@ -291,6 +305,14 @@ SPLIT IN TWO SECTION
 .halfcolumn_text mark {
     background-color: black;
 }
+    .splitintwo .halfcolumn_text h1 {
+        font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+
 /*****************************************************
 GALLERY
 ******************************************************/
