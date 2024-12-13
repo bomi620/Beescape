@@ -456,6 +456,10 @@ HEADING + PARAGRAPH SECTION
     margin-bottom: 20px;
 }
 .text_section p {
+    font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;
     font-size: 1.2em;
     margin-bottom: 20px;
 }
@@ -463,6 +467,7 @@ HEADING + PARAGRAPH SECTION
     width: 40%;
     margin-top: 40px;
     margin-bottom: 20px;
+    color: rgb(247, 201, 18);
 }
 /*****************************************************
 TEXT&IMAGE SECTION
@@ -564,7 +569,7 @@ FOOTER
     font-family: "Silkscreen", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-image: url(../assets/images/cross_rover.svg);
+    background-image: url(../assets/images/beepic1.png);
     background-repeat: no-repeat;
     background-size: 60px;
     background-position: 98% 88%;
@@ -593,5 +598,5 @@ FOOTER
     transition: all .4s ease;
 }
 .footer_section .textbox a:hover {
-    color: lime;
+    color: black;
 }
